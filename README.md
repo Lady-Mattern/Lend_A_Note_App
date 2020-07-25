@@ -1,6 +1,17 @@
 # Lend A Note
 ## Schools lending their notes to make beautiful music together!
 
+## Technologies Used
+- HTML
+- CSS
+- SASS
+- JavaScript
+- React
+- Ruby on Rails
+- PostgresQL
+- SQL
+- (Possibly Gatsby)
+
 ### About Lend A Note
 Lend A Note is an application designed for school music programs to lend their sheet music out to other schools in need. 
 
@@ -46,3 +57,23 @@ Music educators will be able to search from the following criteria right from th
   * Level 5.5 (Hard)
   * Level 6 (Hard)
  
+
+## Data Modeling 
+This project will require me to us Ruby on Rails as **(currently it looks like)** I will need to have a **many to many** table relationship. Here is how I came to this conclusion.
+
+## Table One: Schools
+One school may have many songs listed in their library.
+
+| School | Song_Id | Region |
+| ------ | ------- | ------ |
+| Emmett High School | 1 | Emmett, ID |
+| Emmett High School | 2 | Emmett, ID |
+| Emmett High School | 3 | Emmett, ID |
+
+## Table Two: Songs
+One song may be found in many school's libraries.
+
+| Song | School_Id | Composer/Arranger |
+| ---- | --------- | ----------------- |
+| October | 1 | Eric Whitacre |
+| October | 2 | Eric Whitacre |
