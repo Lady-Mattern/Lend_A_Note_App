@@ -23,14 +23,14 @@ Music educators will be able to search from the following criteria right from th
 - **Composer/Arranger:** Filter the search further by adding the composer. Or search for all pieces available by one particular composer or arrangement.
 
 - **Instrumentation** For now, search criterial will be pulled from a drop down list and include:
-..* Concert Band
-..* Jazz Band
-..* Marching Band
-..* String Orchestra
-..* Symphonic Orchestra
-..* Four Part Choir
-..* Three Part Choir
-..* Two Part Choir
+  * Concert Band
+  * Jazz Band
+  * Marching Band
+  * String Orchestra
+  * Symphonic Orchestra
+  * Four Part Choir
+  * Three Part Choir
+  * Two Part Choir
 
 - **Difficulty Level** Music educators and ensemble directors can choose from pieces ranging from the standard grade levels ranging from 1 - 6.
 
