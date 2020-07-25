@@ -34,15 +34,15 @@ Music educators will be able to search from the following criteria right from th
 
 4. **Difficulty Level** Music educators and ensemble directors can choose from pieces ranging from the standard grade levels ranging from 1 - 6.
 
-- Level 1 (Easy)
-- Level 1.5 (Easy)
-- Level 2 (Easy)
-- Level 2.5 (Easy-Medium)
-- Level 3 (Medium)
-- Level 3.5 (Medium)
-- Level 4 (Medium)
-- Level 4.5 (Medium-Hard)
-- Level 5 (Hard)
-- Level 5.5 (Hard)
-- Level 6 (Hard)
+  * Level 1 (Easy)
+  * Level 1.5 (Easy)
+  * Level 2 (Easy)
+  * Level 2.5 (Easy-Medium)
+  * Level 3 (Medium)
+  * Level 3.5 (Medium)
+  * Level 4 (Medium)
+  * Level 4.5 (Medium-Hard)
+  * Level 5 (Hard)
+  * Level 5.5 (Hard)
+  * Level 6 (Hard)
  
