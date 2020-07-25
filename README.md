@@ -77,3 +77,27 @@ One song may be found in many school's libraries.
 | ---- | --------- | ----------------- |
 | October | 1 | Eric Whitacre |
 | October | 2 | Eric Whitacre |
+
+## Anticipated Working Timeline
+
+### Week One
+
+| Sun |
+| ------ |
+| Mon |
+| ------ |
+| Tues |
+| ------ |
+| Wed |
+| ------ |
+| Thurs |
+| ------ |
+| Fri |
+| ------ |
+| Sat |
+| ------ |
+
+### Week Two
+
+
+
