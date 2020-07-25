@@ -18,11 +18,11 @@ The Lend A Note application will allow music teachers across the country to sear
 
 Music educators will be able to search from the following criteria right from the home page.
 
-- **Title:** Search the title of the desired piece.
+1. **Title:** Search the title of the desired piece.
 
-- **Composer/Arranger:** Filter the search further by adding the composer. Or search for all pieces available by one particular composer or arrangement.
+2. **Composer/Arranger:** Filter the search further by adding the composer. Or search for all pieces available by one particular composer or arrangement.
 
-- **Instrumentation** For now, search criterial will be pulled from a drop down list and include:
+3. **Instrumentation** For now, search criterial will be pulled from a drop down list and include:
   * Concert Band
   * Jazz Band
   * Marching Band
@@ -32,7 +32,7 @@ Music educators will be able to search from the following criteria right from th
   * Three Part Choir
   * Two Part Choir
 
-- **Difficulty Level** Music educators and ensemble directors can choose from pieces ranging from the standard grade levels ranging from 1 - 6.
+4. **Difficulty Level** Music educators and ensemble directors can choose from pieces ranging from the standard grade levels ranging from 1 - 6.
 
 - Level 1 (Easy)
 - Level 1.5 (Easy)
