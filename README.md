@@ -10,6 +10,7 @@
 - SASS
 - JavaScript
 - React
+- Create React App
 - Ruby on Rails
 - PostgresQL
 - SQL
@@ -61,11 +62,17 @@ Music educators will be able to search from the following criteria right from th
   * Level 5.5 (Hard)
   * Level 6 (Hard)
  
-
 ## Data Modeling 
 This project will require me to us Ruby on Rails as **(currently it looks like)** I will need to have a **many to many** table relationship. Here is how I came to this conclusion.
 
 ### Table One: Schools
+Schools table will contain:
+- School Name
+- Region
+- Educator Name
+- School Email
+- School Phone
+
 One school may have many songs listed in their library.
 
 | School | Song_Id | Region |
@@ -75,6 +82,13 @@ One school may have many songs listed in their library.
 | Emmett High School | 3 | Emmett, ID |
 
 ### Table Two: Songs
+Songs table will contain:
+- Song Title
+- Composer/Arrange
+- Instrumentation
+- Difficulty Level
+- (Maybe Cover Image?)
+
 One song may be found in many school's libraries.
 
 | Song | School_Id | Composer/Arranger |
@@ -117,10 +131,10 @@ One song may be found in many school's libraries.
 
 ### Home Page
 The 'Sign In' webform will appear as a modal
-
+![Home Page View](/lendanote_client/public/images/LendANote-Home.png)
 
 ### Sign-Up Page
-
+![Sign Up Page](/lendanote_client/public/images/LendANote-Sign-Up.png)
 
 ### User Information Page/Add Songs To School Library
 The 'Add A Song' webform will appear as a modal
