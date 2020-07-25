@@ -16,7 +16,7 @@
 - User Authentication
 - (Possibly Gatsby)
 
-### About Lend A Note
+## About Lend A Note
 Lend A Note is an application designed for school music programs to lend their sheet music out to other schools in need. 
 
 This idea for this application came from my experience teaching music in small school districts. The schools would have large libraries of sheet music, but the music was designed for very large, and well advanced ensembles. The groups that I would see were anywhere from five to maybe twenty students in size.
@@ -65,7 +65,7 @@ Music educators will be able to search from the following criteria right from th
 ## Data Modeling 
 This project will require me to us Ruby on Rails as **(currently it looks like)** I will need to have a **many to many** table relationship. Here is how I came to this conclusion.
 
-## Table One: Schools
+### Table One: Schools
 One school may have many songs listed in their library.
 
 | School | Song_Id | Region |
@@ -74,7 +74,7 @@ One school may have many songs listed in their library.
 | Emmett High School | 2 | Emmett, ID |
 | Emmett High School | 3 | Emmett, ID |
 
-## Table Two: Songs
+### Table Two: Songs
 One song may be found in many school's libraries.
 
 | Song | School_Id | Composer/Arranger |
@@ -110,7 +110,29 @@ One song may be found in many school's libraries.
 | Tues | Additional styling | TBD |
 | Wed | Additional styling | TBD |
 | Thurs | Additional styling, leftover content debugging | TBD |
-| Fri | Final styling, fix bugs, fix deployment issues |
+| Fri | Final styling, fix bugs, fix deployment issues | TBD |
 | Sat | Project Presentation | |
 
 ## Wireframes
+
+### Home Page
+The 'Sign In' webform will appear as a modal
+
+
+### Sign-Up Page
+
+
+### User Information Page/Add Songs To School Library
+The 'Add A Song' webform will appear as a modal
+
+
+### Song Search Results Page (Index Page)
+
+## Moodboard and Design Ideas
+(Design features coming soon)
+
+## Challenges 
+(Challenges to be added at a later date)
+
+## Ideas for the Future
+(This section to be added before presentation)
