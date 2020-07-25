@@ -92,22 +92,25 @@ One song may be found in many school's libraries.
 |     | Create the data and seed database | 3 hrs |
 |     | Create routes with browser router | 3 hrs |
 |     | Begin user authentication | 2 hrs |
-| Mon | 
-| Tues |
-| Wed |
-| Thurs |
-| Fri |
-| Sat |
+| Mon | Most likely more user auth/create account page/sign in | 4 hrs |
+| Tues | Work on the search webform on homepage | 2 hrs |
+| Wed | Nav bar content and positioning | 1 |
+|     | Footer content and styleing | 1 |
+| Thurs | Continued route set up. Information displayed on page | 3 - 4 hrs |
+| Fri | All routes set up by this time? 
+| Sat | 
 
 ### Week Two
 
 | Day | Task | Time |
 | --- | ---- | ---- |
-| Sun | 
-| Mon |
-| Tues |
-| Wed |
-| Thurs |
+| Sun | Work in media queries | 4 hrs |
+| Mon | Home page, sign-up page, sign-in page styling | 4 hrs |
+|     | Search display page styling | 2 hrs |
+| Tues | Additional styling | TBD |
+| Wed | Additional styling | TBD |
+| Thurs | Additional styling, leftover content debugging | TBD |
 | Fri | Final styling, fix bugs, fix deployment issues |
 | Sat | Project Presentation | |
 
+## Wireframes
