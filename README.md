@@ -134,7 +134,7 @@ The 'Sign In' webform will appear as a modal
 ![Home Page View](/lendanote_client/public/images/LendANote-Home.png)
 
 ### Sign-Up Page
-![Sign Up Page](/lendanote_client/public/images/LendANote-Sign-Up.png)
+![Sign Up Page](/lendanote_client/public/images/LendANote-SignUp.png)
 
 ### User Information Page/Add Songs To School Library
 The 'Add A Song' webform will appear as a modal
