@@ -1,6 +1,9 @@
 # Lend A Note
 ## Schools lending their notes to make beautiful music together!
 
+## Live Link to Site
+(Most likely deploying this app to heroku)
+
 ## Technologies Used
 - HTML
 - CSS
@@ -10,6 +13,7 @@
 - Ruby on Rails
 - PostgresQL
 - SQL
+- User Authentication
 - (Possibly Gatsby)
 
 ### About Lend A Note
@@ -82,22 +86,28 @@ One song may be found in many school's libraries.
 
 ### Week One
 
-| Sun |
-| ------ |
-| Mon |
-| ------ |
+| Day | Task | Time |
+| --- | ---- | ---- |
+| Sun | Set up the tables | 30 min |
+|     | Create the data and seed database | 3 hrs |
+|     | Create routes with browser router | 3 hrs |
+|     | Begin user authentication | 2 hrs |
+| Mon | 
 | Tues |
-| ------ |
 | Wed |
-| ------ |
 | Thurs |
-| ------ |
 | Fri |
-| ------ |
 | Sat |
-| ------ |
 
 ### Week Two
 
-
+| Day | Task | Time |
+| --- | ---- | ---- |
+| Sun | 
+| Mon |
+| Tues |
+| Wed |
+| Thurs |
+| Fri | Final styling, fix bugs, fix deployment issues |
+| Sat | Project Presentation | |
 
