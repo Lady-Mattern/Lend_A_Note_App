@@ -138,9 +138,10 @@ The 'Sign In' webform will appear as a modal
 
 ### User Information Page/Add Songs To School Library
 The 'Add A Song' webform will appear as a modal
-
+![User Information and Lending Library Page](/lendanote_client/public/images/LendANote-User.png)
 
 ### Song Search Results Page (Index Page)
+![Search Results and Index Page](/lendanote_client/public/images/LendANote-Index.png)
 
 ## Moodboard and Design Ideas
 (Design features coming soon)
