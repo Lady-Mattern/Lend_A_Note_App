@@ -1,6 +1,6 @@
 class UsersController < ApplicationController
     def create 
-        user= User.create(
+        user = User.create(
             name: params[:name]
             school: params[:school]
             region: params[:region]
