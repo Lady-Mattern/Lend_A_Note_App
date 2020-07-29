@@ -65,7 +65,7 @@ class UsersController < ApplicationController
         params.require(:user).permit(:email, :password, :name, :school, :region, :phone)
       end
   
-      def payload(id, username)
+      def payload(id, email)
         {
           exp: (Time.now + 30.minutes).to_i,
           iat: Time.now.to_i,
