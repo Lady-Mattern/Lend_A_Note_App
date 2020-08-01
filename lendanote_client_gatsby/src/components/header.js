@@ -6,7 +6,7 @@ import Nav from "./nav"
 const Header = ({ siteTitle }) => (
   <header
     style={{
-      background: `rebeccapurple`,
+      background: `orange`,
       marginBottom: `1.45rem`,
     }}
   >
