@@ -5,7 +5,9 @@ import SignUp from '../components/signUp';
 const SignupPage = () => (
     <Layout>
         <h1>Sign Up</h1>
-        <SignUp />
+        <div className="signup-form">
+            <SignUp />
+        </div>
     </Layout>
 )
 
