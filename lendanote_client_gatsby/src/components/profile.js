@@ -7,6 +7,9 @@ const Profile = () => (
         <ul>
             <li>Name: {getUser().name}</li>
             <li>Email: {getUser().email}</li>
+            <li>School: {getUser().school}</li>
+            <li>Region: {getUser().region}</li>
+            <li>School Phone: {getUser().school_phone}</li>
         </ul>
     </div>
 )
