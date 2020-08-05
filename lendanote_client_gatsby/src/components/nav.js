@@ -1,10 +1,9 @@
 import React from 'react';
 import { Link, navigate } from 'gatsby';
-import { isLoggedIn } from '../services/auth';
-import ( getUser, isLoggedIn, logout ) from '../services/auth';
+import { getUser, isLoggedIn, logout } from '../services/auth';
 
 const Nav = () => (
-    let greetingMessage = ""
+    let greetingMessage = "";
     if (isLoggedIn()) {
         greetingMessage = `Hello ${getUser().name}`
     } else {

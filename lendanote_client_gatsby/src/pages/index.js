@@ -1,10 +1,9 @@
 import React from "react"
 import { Link } from "gatsby"
-
 import Layout from "../components/layout"
-import Image from "../components/image"
+// import Image from "../components/image"
 import SEO from "../components/seo"
-import { isLoggedIn } from "../services/auth"
+import { getUser, isLoggedIn } from "../services/auth"
 
 const IndexPage = () => (
   <Layout>
@@ -21,7 +20,6 @@ const IndexPage = () => (
         <>
           You should <Link to="/app/login">log in</Link> to view your music
         </>
-      )
       )}
     </p>
   </Layout>

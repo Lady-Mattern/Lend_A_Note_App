@@ -5,13 +5,13 @@ import Profile from '../components/profile';
 import Login from '../components/login';
 import PrivateRoute from '../components/privateRoute';
 
-const App = () => {
+const App = () => (
     <Layout>
         <Router>
             <PrivateRoute path="/app/profile" component={Profile} />
             <Login />
         </Router>
     </Layout>
-}
+)
 
 export default App;
