@@ -1,5 +1,5 @@
 import React from 'react';
-import SignupPage from '../pages/signupPage';
+import { navigate } from 'gatsby';
 import { render } from 'react-dom';
 
 class SignUp extends React.Component {
@@ -18,15 +18,15 @@ class SignUp extends React.Component {
         })
     }
 
-    handleSubmit = event => {
-        event.preventDefault()
-        handleSignUp(this.state)
-    }
+    // handleSubmit = event => {
+    //     event.preventDefault()
+    //     handleSignUp(this.state)
+    // }
 
     render() {
-        if (isLoggedIn()) {
-            navigate(`/app/profile`)
-        }
+        // if (isLoggedIn()) {
+        //     navigate(`/app/profile`)
+        // }
 
         return (
             <div>
@@ -37,34 +37,34 @@ class SignUp extends React.Component {
                         navigate(`/app/profile`)
                     }} 
                 >
-                    <label htmlFor="name">
+                    <label>
                         Name: 
-                        <input type="text" id="name" name="name" />
+                        <input type="text" name="name" onChange={this.handleUpdate} />
                     </label>
                     {` `}
-                    <label htmlFor="school">
+                    <label>
                         School: 
-                        <input type="text" id="school" name="school" />
+                        <input type="text" name="school" onChange={this.handleUpdate} />
                     </label>
                     {` `}
-                    <label htmlFor="region">
+                    <label>
                         Region: 
-                        <input type="text" id="region" name="region" />
+                        <input type="text" name="region" onChange={this.handleUpdate} />
                     </label>
                     {` `}
-                    <label htmlFor="phone">
+                    <label>
                         Phone: 
-                        <input type="text" id="phone" name="phone" />
+                        <input type="text" name="phone" onChange={this.handleUpdate} />
                     </label>
                     {` `}
-                    <label htmlFor="email">
+                    <label>
                         Email: 
-                        <input type="text" id="email" name="email" />
+                        <input type="text" name="email" onChange={this.handleUpdate} />
                     </label>
                     {` `}
-                    <label htmlFor="password">
+                    <label>
                         Password: 
-                        <input type="text" id="password" name="password" />
+                        <input type="text" name="password" onChange={this.handleUpdate} />
                     </label>
                     {` `}
                     <input type="submit" value="Create Account" />
